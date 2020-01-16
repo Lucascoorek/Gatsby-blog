@@ -9,7 +9,11 @@ const IndexPage = () => {
       <h2>Hi I'm a web developer living in Warsaw, Poland</h2>
       <p>
         See my Github page:{" "}
-        <a href="https://github.com/Lucascoorek" target="_blank">
+        <a
+          href="https://github.com/Lucascoorek"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Github
         </a>
       </p>
