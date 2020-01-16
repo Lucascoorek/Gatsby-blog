@@ -5,5 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Front-end Developer",
+    author: "Lukasz Kurek",
+  },
   plugins: [`gatsby-plugin-sass`],
 }
