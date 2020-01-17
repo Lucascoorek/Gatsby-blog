@@ -1,4 +1,22 @@
-.link {
-  text-decoration: none;
-  color: inherit;
+.links {
+  list-style-type: none;
+  margin: 0;
+  a {
+    text-decoration: none;
+    color: inherit;
+    background-color: #dddddd;
+    display: block;
+    padding: 1rem;
+    margin: 1rem 0;
+    h2 {
+      margin: 0;
+    }
+    p {
+      color: #888;
+      font-style: italic;
+    }
+    &:hover {
+      background-color: #eee;
+    }
+  }
 }
